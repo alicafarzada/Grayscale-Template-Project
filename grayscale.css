@@ -1,0 +1,403 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.gray{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    width: 100%;
+    height:100vh;
+    /* background-attachment: scroll; */
+    background-position: center center;
+    background-size: cover;
+    
+   
+}
+.a  {
+    width: 160px;
+    height: 46px;
+    margin: 20px 16px ;
+    padding: 8px 0px;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+.texticons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 99.6px;
+    padding: 0px 48px;
+    width: 1320px;
+    height: 88px;
+    
+
+    
+}
+.nav{width: 20%;
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    justify-content: space-around;
+    margin: 30px;
+    right: 130px;
+    position: absolute;
+   
+   
+    
+}
+
+.nav li a:hover{
+color:#adb5bd;
+}
+.a a{
+    text-decoration: none;
+    color:#dee2e6;
+}
+.nav a{
+    text-decoration: none;
+    color:#dee2e6;
+}
+.text-center{
+    text-align: center;
+    width: 745px;
+    height: 267px;
+    justify-content: center;
+    margin:200px auto;
+    
+}
+.text-center h1{
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    font-weight: 500px;
+    font-family: 'Varela Round', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 104px;
+    
+   
+}
+.text-center h2{
+    max-width: 30rem;
+    font-size: 1.25rem;
+    color:gray;
+    margin: auto;
+    margin-bottom: 48px;
+}
+.text-center .get button{
+    width: 180px;
+    height: 60px;
+    background-color:#64a19d96;  
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.get button p{
+    color: #fff;
+}
+.get button:hover{
+    background-color: #64a19d; 
+    transition: 0.6s;
+}
+.about{
+    width: 100%;
+    height: 564px;
+    background-color: rgba(0, 0, 0, 0.941);
+    padding: 160px 0px 0px;
+
+}
+.about-container h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+   
+}
+.pa{
+    width: 799px;
+    height: 72px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.pa p{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5)
+    
+}
+.pa a{
+    color: #64a19d;
+    
+   
+}
+.img img{
+    width: 1224px;
+    height: 345px;
+    margin: auto;
+}
+.img{
+    margin:0px 99px;
+    padding: 0px 48px;
+}
+.projects{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    padding: 160px 0px;
+   
+}
+.imgtext{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.imgg{
+    width: 66.6%;
+    height: 600px;
+}
+.imgg img{
+    width: 100%;
+    height: 100%;
+}
+.texxt{
+    width: 33.3%;
+    height: 150px;
+    box-sizing: border-box;
+    border-left: 8px solid  #64a19d;
+    /* background-color: aqua; */
+    text-align: center;
+    /* margin-top: 250px; */
+    /* margin-left: 30px; */
+   
+}
+.texxt p{
+    width: 92%;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 75px; */
+    color: #00000080;
+
+}
+.texxt h4{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #212529;
+}
+.misty{
+    width: 100%;
+    height: 900px;}
+.textimg{
+    /* position: relative; */
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+}    
+.img1{
+    width: 50%;
+    height: 400px;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.black{
+    background-color: #000;
+}
+/* .img2{
+    width: 600px;
+    height: 400px;
+    background-color: #000;
+}
+.img3{
+    width: 600px;
+    height: 400px;
+    background-color: #000;
+} */
+/* .img4 img{
+    width: 600px;
+    height: 400px;} */
+   .img1 h4{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+   }
+   .img1 p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align:center;
+    font-size: 90%;
+    
+   }
+   /* .img3 h4{color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+   } */
+   /* .img3 p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align:center;
+    font-size: 90%;} */
+
+    .subscribe{
+        width: 100%;
+        height: 200px;
+        background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+        background-size: cover;
+        padding: 160px 0px;
+    }
+    .alll{
+        width: 50%;
+        height: 300px;
+        /* background-color: red; */
+        margin: auto;
+        text-align: center;
+    }
+    .alll .fa-paper-plane{
+        font-size: 2em;
+       color: #fff;
+        margin-bottom: 8px;
+    }
+    .alll h2{font-weight: 500;
+        line-height: 1.2;
+        color: #fff;
+        margin: 0px 0px 48px;
+
+    }
+    .alll form input{
+        width: 400px;
+        height: 60px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 16px;
+       
+    }
+    .inpl{
+        display: flex;
+        margin-left: 80px;
+       
+    }
+     .inpl form input{
+        padding: 0px 25px;
+    }
+    .not{
+        width: 180px;
+        height: 60px;
+        background-color: #64a19d;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+    .not p{
+        text-align: center;
+        margin-top: 20px;
+        color: #dee2e6;
+        font-size: 14px;
+    }
+    .imgs{
+        width: 100%;
+        height: 400px;
+        padding: 80px 0px 0px;
+        background-color: #212529;
+    }
+    .icons{
+        width: 80%;
+        height: 300px;
+        /* background-color: red; */
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon1{
+        width: 370px;
+        height: 200px;
+        background-color: white;
+        border-radius: 5px;
+        border-bottom: 0.25rem solid #64a19d;
+        text-align: center;
+    }
+    .icon1 i{
+        color:#64a19d ;
+        margin-top: 30px;
+    }
+    .icon1 h4{
+        font-size: 0.8rem;
+        letter-spacing: 0.15rem;
+        font-weight: 500;
+    line-height: 1.2;
+    margin-top: 10px;
+    }
+    .icon1 a{
+        color: #64a19d;
+    }
+    .icon1 hr{
+    
+    border-color: #64a19d;
+    border-width: 0.150rem;
+    width: 3rem;
+    margin: 24px 148px 24px 160px;
+    }
+    .icon1 p{
+        color: rgba(0, 0, 0, 0.5)
+    }
+    .i3{
+        width: 25%;
+        height: 50px;
+        /* background-color: yellow; */
+        margin: auto;
+        cursor: pointer;
+    }
+    .i3 i{padding: 15px;
+        color: #adb5bd;
+    
+     
+    }
+    .i3 .fa-twitter{
+        padding: 15px;
+        background-color:  #FFFFFF1A;
+        border-radius: 50%;
+    }
+    .i3 .fa-facebook{
+        padding: 15px;
+        background-color:  #FFFFFF1A;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .i3 .fa-github{
+        padding: 15px;
+        background-color:   #FFFFFF1A;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .tfg{
+        text-align: center;
+    }
+    .tfg i:hover{
+        color:#ced4da;
+        cursor: pointer;
+    }
+    .foot{
+        width: 100%;
+        height: 50px;
+        background-color: #212529;
+    }
+    .foot p{
+        text-align: center;
+        color:#FFFFFF80 ;
+    }
